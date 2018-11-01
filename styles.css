@@ -1,0 +1,402 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+
+  hr{
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #fff;
+  }
+  
+  #main {
+      height:100%;
+      width:100%;
+  }
+  
+  .width-wrapper{
+    max-width: 800px;
+  }
+  
+  .black {
+    color: #282828;
+  }
+
+/* 376 */
+
+@media only screen and (max-width: 376px) {
+  #about {
+    margin-top: 30% !important;
+    margin-bottom: 10% !important;
+  }
+  .moveLeft {
+    margin-left: 9%;
+  }
+}
+
+  #about{
+      height:95%;
+      width:100%;
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      min-height: 28em;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
+  
+  #projects{
+      height:100%;
+      width:100%;
+      background-color: #fff;
+      color: #1e1e1e;
+  }
+  
+  #projects .container{
+    width: 100%;
+  }
+  
+  #about .container{
+    width: 40%;
+  }
+  
+  #whisker-img{
+    /*height: 425px;
+    width: 565px;*/
+    display: block;
+    width: 60%;
+    height: auto;
+  }
+  
+  #encoder-img{
+    display: block;
+    width: 70%;
+    height: auto;
+  }
+  
+  #ciac-img{
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+  
+  #crypt-img{
+    display: block;
+    width: 60%;
+    height: auto;
+  }
+
+  #meme-img{
+    display: block;
+    width: 65%;
+    height: auto;
+  }
+  
+  #mau5-img{
+    display: block;
+    width: 70%;
+    height: auto;
+  }
+  
+  .project-row{
+    margin-bottom: 50px;
+  }
+  
+  .project-spacing{
+    margin-bottom: 50px;
+  }
+  
+  .card-lg{
+    box-shadow: 0px 0px 40px -10px #d6d6d6;
+  }
+  
+  .card-sm{
+    box-shadow: 0px 0px 40px -10px #d6d6d6;
+  }
+  
+  .upper-card{
+    height: 80%;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 24em;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 450px;
+  }
+  
+  .lower-card{
+    height: 20%;
+  }
+  
+  .title-card{
+    font-size: 14pt;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    color: #282828;
+  }
+  
+  .content-card{
+    margin-top: 20px;
+  }
+  
+  .about-card{
+    font-size: 12pt;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    color: #282828;
+    margin-bottom: 5px;
+  }
+  
+  .blue-card{
+    background-color: #62a2eb;
+  }
+
+  .light-card{
+    background-color: rgb(241, 241, 241);
+  }
+  
+  .dark-card{
+    background-color: #38404c;
+  }
+
+  .last-card{
+    background-color: #16191c;
+  }
+  
+  .skyblue-card{
+    background-color: #8bd2ff;
+  }
+  
+  .red-card{
+    background-color: #F9637C;
+  }
+  
+  .emphasis-link{
+    color: #006eff;
+  }
+  
+  .emphasis-link:hover{
+    color: #004fb6;
+    text-decoration: none;
+  }
+  
+  .about-text{
+      font-size: 16pt;
+      font-family: 'Work Sans', sans-serif;
+      color: #282828;
+      text-align: left;
+  }
+  
+  .about-title{
+    font-size: 18pt;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    color: #282828;
+    float: left;
+  }
+  
+  .about-icons{
+    font-size: 18pt;
+    color: #282828;
+    float: right;
+    text-align: right;
+  }
+  
+  .none{
+    text-decoration: none !important;
+  }
+
+  .none:hover{
+    text-decoration: none !important;
+  }
+
+  .emphasis-text{
+      color: #e7ff7f;
+  }
+  
+  .smaller{
+      font-size: 18pt !important;
+  }
+  
+  .social-icon{
+    height: 18px;
+    width: 19px;
+  }
+
+  .social-icon:hover {
+    text-decoration: none;
+  }
+  
+  .skill-section{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+      color: #282828;
+      border: 1px solid #282828;
+      margin-right: 10px;
+      text-transform: uppercase;
+      width: auto;
+      display: inline-block;
+      font-size: 10px;
+      line-height: 1.33333em;
+      padding: 7px 15px;
+      margin-top: 0.8em;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      border-radius: 8px;
+  }
+  
+  .skill-black{
+      color: #878787 !important;
+      border-color: #303030 !important;
+  }
+  
+  .skill-red{
+    border-color: #F9637C !important;
+  }
+  
+  .skill-blue{
+    border-color: #4fa1ff !important;
+  }
+  
+  .skill-skyblue{
+    border-color: #89D2DC !important;
+  }
+  
+  .skill-aqua{
+    border-color: #31D6C5 !important;
+  }
+  
+  @media only screen and (min-width: 2100px) {
+    #whisker-img {
+      width: 55%;
+    }
+    #crypt-img {
+      width: 50%;
+    }
+    #mau5-img {
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (min-width: 1400px) {
+    #projects .container {
+      max-width: 1300px;
+    }
+  
+    #about .container{
+      max-width: 800px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    #about .container{
+      width: 50%;
+    }
+  
+    #whisker-img{
+      width: 70%;
+    }
+  
+    #crypt-img{
+      width: 50%;
+    }
+  
+    #mau5-img{
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    #about .container{
+      width: 60%;
+    }
+  
+    #whisker-img{
+      width: 80%;
+    }
+  
+    #crypt-img{
+      width: 50%;
+    }
+  
+    #mau5-img{
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #about .container{
+      width: 70%;
+    }
+  
+    #whisker-img{
+      width: 80%;
+    }
+  
+    #crypt-img{
+      width: 50%;
+    }
+  
+    #mau5-img{
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    #about .container{
+      width: 80%;
+    }
+  
+    .about-icons{
+      font-size: 10pt;
+    }
+  
+    #whisker-img{
+      width: 90%;
+    }
+  
+    #crypt-img{
+      width: 50%;
+    }
+  
+    #mau5-img{
+      width: 70%;
+    }
+  
+    #encoder-img{
+      width: 80%;
+    }
+  
+    #ciac-img{
+      width: 95%;
+    }
+  }
